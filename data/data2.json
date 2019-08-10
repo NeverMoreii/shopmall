@@ -1,0 +1,198 @@
+
+
+    [{
+        "inner": "数控机床",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_1.jpg",
+                "pice": "1000",
+                "size": "机床1"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_2.jpg",
+                "pice": "2000",
+                "size": "机床2"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_3.jpg",
+                "pice": "3000",
+                "size": "机床3"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_4.jpg",
+                "pice": "4000",
+                "size": "机床4"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_5.jpg",
+                "pice": "3000",
+                "size": "机床5"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_6.jpg",
+                "pice": "4000",
+                "size": "机床6"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_7.jpg",
+                "pice": "3000",
+                "size": "机床7"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_8.jpg",
+                "pice": "4000",
+                "size": "机床8"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_9.jpg",
+                "pice": "3000",
+                "size": "机床9"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_10.jpg",
+                "pice": "4000",
+                "size": "机床10"
+            }
+        ]
+	},
+	{
+        "inner": "刀具",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_10.jpg",
+                "pice": "10",
+                "size": "刀具1"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_9.jpg",
+                "pice": "20",
+                "size": "刀具2"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_8.jpg",
+                "pice": "30",
+                "size": "刀具3"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_7.jpg",
+                "pice": "4",
+                "size": "刀具4"
+            }
+        ]
+    },
+    {
+        "inner": "特种加工",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_4.jpg",
+                "pice": "10",
+                "size": "加工1"
+            }
+        ]
+    },
+    {
+        "inner": "成型",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_5.jpg",
+                "pice": "10",
+                "size": "成型"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_7.jpg",
+                "pice": "10",
+                "size": "成型"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_9.jpg",
+                "pice": "10",
+                "size": "成型"
+            }
+        ]
+    },
+    {
+        "inner": "智能硬件",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_2.jpg",
+                "pice": "10",
+                "size": "硬件"
+            }
+        ]
+    },
+    {
+        "inner": "服务",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_9.jpg",
+                "pice": "10",
+                "size": "服务1"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_7.jpg",
+                "pice": "10",
+                "size": "服务2"
+            }
+        ]
+    },
+    {
+        "inner": "切削",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_4.jpg",
+                "pice": "10",
+                "size": "切削"
+            }
+        ]
+    },
+    {
+        "inner": "激光切割",
+        "weather": [
+            {
+                "new": "新品",
+                "src": "../images/j_9.jpg",
+                "pice": "10",
+                "size": "电视1"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_8.jpg",
+                "pice": "20",
+                "size": "电视2"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_7.jpg",
+                "pice": "30",
+                "size": "电视3"
+            },
+            {
+                "new": "新品",
+                "src": "../images/j_6.jpg",
+                "pice": "4",
+                "size": "电视4"
+            }
+        ]
+    }]
