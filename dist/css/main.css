@@ -152,7 +152,8 @@ header .container a {
   font-size: 11px; }
 
 .banner {
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 .banner_r {
   width: 1104px;
@@ -170,14 +171,13 @@ header .container a {
     width: 1104px;
     height: 413px;
     overflow: hidden;
-    background: #5f5f60;
     background-size: cover; }
   .banner_r .next {
     width: 40px;
     height: 70px;
     background: #5f5f60;
     position: absolute;
-    z-index: 999999999;
+    z-index: 3;
     top: 170px;
     right: 0px; }
     .banner_r .next img {
@@ -187,8 +187,31 @@ header .container a {
     height: 70px;
     background: #5f5f60;
     position: absolute;
-    z-index: 99999999;
+    z-index: 3;
     top: 170px;
     left: 234px; }
     .banner_r .prev img {
       margin: 20px auto; }
+  .banner_r .navsml {
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    z-index: 10; }
+    .banner_r .navsml ul {
+      width: 200px;
+      height: 30px; }
+      .banner_r .navsml ul .active {
+        width: 10px;
+        height: 10px;
+        background: yellow;
+        border: #5f5f60 solid 2px;
+        box-sizing: border-box; }
+      .banner_r .navsml ul li {
+        float: left;
+        width: 8px;
+        height: 8px;
+        background: #5f5f60;
+        margin: 5px;
+        border-radius: 50%; }

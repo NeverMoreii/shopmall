@@ -65,71 +65,43 @@ define(["jquery"], function($){
 
 	function banner(){
 			$(function(){
-				
-					
-					// var i=$('.imgbigbox div').length;
-					var i=5;
-					var k=0;
-					$(".imgbigbox .imgbox").eq(k).show()
 
-					function show(){	
-						if(k<5){
-						$(".imgbigbox .imgbox").eq(k).show().siblings().hide();
-						k++;
-						}else{
-							k=0;
-							$(".imgbigbox .imgbox").eq(k).show().siblings().hide();
-							k=k+1
-						}
-						
+
+				var index=0;
+				$(".next").click(function(){
+					index++;
+					if(index>4){
+						index=0
 					}
-					setInterval(show,1000)
-					// show();
-					// alert(k);
-					$(".next").click(function(){
-	
-						if(k<5){
-							$(".imgbigbox .imgbox").eq(k).show().siblings().hide();
-							k++;
-						}else{
-							k=0;
-							$(".imgbigbox .imgbox").eq(k).show().siblings().hide();
-							k=k+1
-						}
-
+					$(".imgbigbox div").eq(index).fadeIn().siblings().fadeOut();
+					$(".navsml ul li").eq(index).addClass("active").siblings().removeClass("active");
 				})
+
 				$(".prev").click(function(){
-	
-					if(k>0){
-						$(".imgbigbox .imgbox").eq(k-1).show().siblings().hide();
-						k--;
-					}else{
-						k=4;
-						$(".imgbigbox .imgbox").eq(k).show().siblings().hide();
-						k=k+1
+					index--;
+					if(index<0){
+						index=4
 					}
+					$(".imgbigbox div").eq(index).fadeIn().siblings().fadeOut();
+					$(".navsml ul li").eq(index).addClass("active").siblings().removeClass("active");
+				})
 
-			})
+				$(".navsml ul li").click(function(){
+					index=$(this).index();
+					$(this).addClass("active").siblings().removeClass("active");
+					$(".imgbigbox div").eq(index).fadeIn().siblings().fadeOut()
+				})
 				
+				var time=setInterval(function(){
+					index++;
+					if(index>4){
+						index=0
+					}
+					$(".imgbigbox div").eq(index).fadeIn().siblings().fadeOut();
+					$(".navsml ul li").eq(index).addClass("active").siblings().removeClass("active");
 					
-					// $(".banner_r").mouseenter(function(){
-					// 	clearInterval(sho)
-					// })
-					// var sho=setInterval(show,1000);
+				},3000)
 
-					
-					// $(".prev").click(function(){	
-					// 	if(k>0||k<i){
-					// 		$(".imgbigbox .imgbox").eq(k).show().siblings().hide();
-					// 		// alert(k);
-					// 		k--
-					// 		}else{
-					// 			k=0
-					// 		}
-					// })
-				
-			
-				
 			})
 	}
 
